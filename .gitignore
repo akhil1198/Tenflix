@@ -1,0 +1,6 @@
+backend/rag
+backend/data
+backend/app/processed_data
+backend/app/chroma_db
+backend/app/.env
+frontend/node_modules
