@@ -13,6 +13,25 @@ This project demonstrates the implementation of a Retrieval-Augmented Generation
 - **Movie/Show Comparisons**: Compare multiple titles to understand similarities and differences
 - **Semantic Content Discovery**: Find content based on themes, plot elements, and context
 
+## Screenshots
+
+### Dashboard
+![Dashboard view](assets/6.png)
+
+### Search Results
+![Search functionality](assets/5.png)
+
+### Chat
+![Personalized recommendations](assets/4.png)
+
+### Recommendations
+![Dashboard view](assets/3.png)
+
+![Search functionality](assets/2.png)
+
+### Comparison
+![Personalized recommendations](assets/1.png)
+
 ## Technical Architecture
 
 The system consists of several core components:
