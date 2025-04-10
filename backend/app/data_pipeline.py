@@ -8,6 +8,9 @@ from tqdm import tqdm
 import numpy as np
 from typing import Dict, List, Optional, Union
 import time
+from dotenv import load_dotenv  # type: ignore
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO, format=(
     '%(asctime)s - %(levelname)s - %(message)s'))
@@ -559,7 +562,7 @@ class MovieDataPipeline:
 if __name__ == "__main__":
     pipeline = MovieDataPipeline(
         imdb_data_path="/Users/akhilshridhar/Downloads/MovieRecommendationSystem/backend/data/tmdb",
-        tmdb_api_key="48f0c87cacf05a4e7e35e316b5c51a53",
+        tmdb_api_key=os.environ.get("TMDB_API_KEY"),
         movielens_data_path="/Users/akhilshridhar/Downloads/MovieRecommendationSystem/backend/data/movielens",
         output_path="./processed_data"
     )
