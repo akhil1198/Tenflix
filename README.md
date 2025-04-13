@@ -13,25 +13,6 @@ This project demonstrates the implementation of a Retrieval-Augmented Generation
 - **Movie/Show Comparisons**: Compare multiple titles to understand similarities and differences
 - **Semantic Content Discovery**: Find content based on themes, plot elements, and context
 
-## Screenshots
-
-### Dashboard
-![Dashboard view](assets/6.png)
-
-### Search Results
-![Search functionality](assets/5.png)
-
-### Chat
-![Personalized recommendations](assets/4.png)
-
-### Recommendations
-![Dashboard view](assets/3.png)
-
-![Search functionality](assets/2.png)
-
-### Comparison
-![Personalized recommendations](assets/1.png)
-
 ## Technical Architecture
 
 The system consists of several core components:
@@ -51,6 +32,25 @@ The system consists of several core components:
 - **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)
 - **LLM Integration**: OpenAI API (GPT-4o)
 - **Frontend**: React, Tailwind CSS
+
+## Screenshots
+
+### Dashboard
+![Dashboard view](assets/6.png)
+
+### Search Results
+![Search functionality](assets/5.png)
+
+### Chat
+![Personalized recommendations](assets/4.png)
+
+### Recommendations
+![Dashboard view](assets/3.png)
+
+![Search functionality](assets/2.png)
+
+### Comparison
+![Personalized recommendations](assets/1.png)
 
 ## Getting Started
 
@@ -101,9 +101,8 @@ Select multiple movies or shows to get a detailed comparison of their similariti
 ## Future Enhancements
 
 - User profiles and persistent recommendation history
-- Collaborative filtering to enhance personalization
-- Image and trailer integration for richer experience
-- Training on the full dataset with GPU acceleration for more comprehensive and higher quality recommendations
+- Image and trailer integration for a richer experience
+- Training on the full dataset with GPU acceleration for more comprehensive and higher-quality recommendations
 
 ## Acknowledgments
 
