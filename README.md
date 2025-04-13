@@ -42,6 +42,8 @@ The system consists of several core components:
 4. **API Layer**: Provides RESTful endpoints for frontend communication
 5. **Frontend UI**: React-based user interface for interacting with the system
 
+![Architecture](assets/diag.png)
+
 ## Technologies Used
 
 - **Backend**: Python, FastAPI
