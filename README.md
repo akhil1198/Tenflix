@@ -29,7 +29,6 @@ The system consists of several core components:
 
 - **Backend**: Python, FastAPI
 - **Vector Database**: ChromaDB
-- **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)
 - **LLM Integration**: OpenAI API (GPT-4o)
 - **Frontend**: React, Tailwind CSS
 
