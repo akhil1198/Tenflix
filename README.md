@@ -35,18 +35,15 @@ The system consists of several core components:
 ## Screenshots
 
 ### Dashboard
-![Dashboard view](assets/6.png)
-
-### Search Results
-![Search functionality](assets/5.png)
+![Dashboard view](assets/5.png)
 
 ### Chat
 ![Personalized recommendations](assets/4.png)
 
 ### Recommendations
-![Dashboard view](assets/3.png)
+![Recommendations](assets/3.png)
 
-![Search functionality](assets/2.png)
+![Mood Based Recommendations](assets/2.png)
 
 ### Comparison
 ![Personalized recommendations](assets/1.png)
